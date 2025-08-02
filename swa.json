@@ -1,0 +1,13 @@
+{
+  "openapi": "3.0.0",
+  "info": {
+    "title": "User API",
+    "version": "1.0.0",
+    "description": "CRUD API with JWT Authentication"
+  },
+  "paths": {
+    "/users": {
+      "get": { "summary": "Get all users", "responses": { "200": { "description": "OK" } } }
+    }
+  }
+}
